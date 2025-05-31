@@ -9,8 +9,8 @@ import Modal from "@mui/joy/Modal";
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
 const port = process.env.NEXT_PUBLIC_PORT;
-//const urlEndpoint = `${baseUrl}:${port}/request/forTableList`
-const urlEndpoint = 'http://localhost:12099/request/forTableList'
+const urlEndpoint = `${baseUrl}:${port}/request/forTableList`
+// const urlEndpoint = 'http://localhost:12099/request/forTableList'
 
 function Page(props) {
 
