@@ -1,0 +1,4 @@
+-envios de sms y email
+-deploy en vercel
+-modificar los colores del dasboard-
+-Configurar los enviroments
