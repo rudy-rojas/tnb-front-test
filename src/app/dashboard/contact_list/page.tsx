@@ -65,7 +65,7 @@ const FormPage = () => {
       setLoading(true);
       setError(null);
       try {
-        const response = await axios.get(`${baseUrl}:${port}/Contact/findAll`);
+        const response = await axios.get(`${baseUrl}/Contact/findAll`);
         const data: Contact[] = response.data; 
         setContacts(data);
       } catch (e: any) {
